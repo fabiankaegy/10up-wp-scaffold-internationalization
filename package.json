@@ -16,8 +16,7 @@
     "build": "npm run build --workspaces --if-present",
     "start": "npm run watch",
     "watch:theme": "npm run watch -w=tenup-theme",
-    "watch:plugin": "npm run watch -w=tenup-plugin",
-    "watch": "run-p watch:theme watch:plugin",
+    "watch": "run-p watch:theme",
     "test": "npm run test --workspaces --if-present",
     "clean-dist": "npm run clean-dist --if-present"
   },
